@@ -24,6 +24,7 @@ def determine_winner(a,b):
 		print("당신이 패배 하였습니다")
 	"""gawi : 1 bawi: 2 bo: 3"""
 while(True):
+
 	cpu_output_index =[1,2,3]
 	cpu_output =["가위","바위","보"]
 
@@ -32,5 +33,11 @@ while(True):
 	a = int(x)
 	print("컴퓨터가 "+cpu_output[b-1]+"를 냈습니다")
 	determine_winner(a,b)
+	c = input("다시 플레이 하시겠습니까?[y,n]")
+	c = str(c)
+	if(c=='y'):
+		continue
+	else:
+		break
 
 
