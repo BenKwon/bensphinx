@@ -24,7 +24,6 @@ def determine_winner(a,b):
 		print("당신이 패배 하였습니다")
 	"""gawi : 1 bawi: 2 bo: 3"""
 while(True):
-
 	cpu_output_index =[1,2,3]
 	cpu_output =["가위","바위","보"]
 
